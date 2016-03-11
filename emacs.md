@@ -40,8 +40,9 @@
 | Key strokes | Command |  
 |---------|------------|  
 | C-space | Marks beginning of text selection |
-| left, right, up, down | moves the cursor, selects text between current position and mark set by C-space |
+| left, right, up, down (after above) | moves the cursor, selects text between current position and mark set by C-space |
 | M-@ | Selects text between current position in word to its end |
+| M-. | Comments/uncomments selected text |
 
 
 
@@ -75,10 +76,8 @@
 
 | Key strokes | Command |  
 |---------|------------|  
-| C-s <<string>> | "Regular" search for <<string>>, with the following subcommands
-* repeatedly hitting C-s continues to search for <<string>>, return stops the search |
-| M-s <<string>> | |  
+| C-s &lt;string&gt; | "Regular" search for &lt;string&gt; |
+| C-s &lt;string&gt; C-s C-s... | continues to search for &lt;string&gt; |
+| return (after either of the above) | stops the search and places cursor at that pattern |
+| M-s &lt;string&gt; | |  
 
-
-
-M-x xterm-mouse-mode activate mouse
