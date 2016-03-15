@@ -1,7 +1,7 @@
 ## Data dictionary views
 
 | Concept | Postgres | Oracle | MySQL |  
-|---------|------------|-|-|  
+|---------|------------|---|---|  
 | Columns | information_schema.columns | dba_tab_columns | |  
 | Tables | information_schema.tables | dba_tables | |  
 | Constraints | information_schema.table_constraints | dba_constraints | |  
