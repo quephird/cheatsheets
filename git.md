@@ -4,7 +4,7 @@
 | `git checkout -b foo` | Creates a new local branch named `foo`. |
 | `git checkout foo` | Switches to extant branch `foo`, fails if that branch doesn't already exist. |
 | `git add somefile.ext` | Stages file to be committed. |
-| `git add` | Stages all pending files. |
+| `git add .` | Stages all pending files. |
 | `git add -p` | "Pages" through hunks of changes which can be staged individually |
 | `git commit -m 'Some commit message'` | Commits all staged files to local repository. |
 | `git rebase foo` | Merges changes from _local_ branch `foo` to current local branch; alters history to appear as if current branch was just made off of master. |
