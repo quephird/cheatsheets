@@ -1,4 +1,4 @@
-## Editor commands
+## Environment-wide commands
 
 | Key strokes | Command |  
 |---------|------------|  
@@ -44,8 +44,6 @@
 | M-@ | Selects text between current position in word to its end |
 | M-. | Comments/uncomments selected text |
 
-
-
 ## Text manipulation commands
 
 | Key strokes | Command |  
@@ -56,7 +54,7 @@
 | M-delete | Deletes from current position to the beginning of the current word |
 | M-d | Deletes from current position to the end of the current word |
 | M-t | Transposes current word with the one following it |  
-
+| M-^ | Deletes from current cursor position to end of previous line |  
 
 ## Cursor commands
 
@@ -80,4 +78,3 @@
 | C-s &lt;string&gt; C-s C-s... | continues to search for &lt;string&gt; |
 | return (after either of the above) | stops the search and places cursor at that pattern |
 | M-s &lt;string&gt; | |  
-
